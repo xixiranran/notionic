@@ -25,13 +25,12 @@ const BLOG = {
   },
   showWeChatPay: true,
   previewImagesEnabled: true,
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    github: 'https://github.com/xixiranran',
+    bilibili: 'https://space.bilibili.com/29720041'
   },
   seo: {
     keywords: ['熙然博客', 'xiranblog', '熙然', 'xiran', 'xixiranran', '博客', 'Blog'],
