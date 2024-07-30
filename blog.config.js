@@ -30,7 +30,6 @@ const BLOG = {
   defaultCover: '/cover.jpg',
   socialLink: {
     github: 'https://github.com/xixiranran',
-    bilibili: 'https://space.bilibili.com/29720041'
   },
   seo: {
     keywords: ['熙然博客', 'xiranblog', '熙然', 'xiran', 'xixiranran', '博客', 'Blog'],
