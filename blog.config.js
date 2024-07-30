@@ -1,10 +1,10 @@
 const BLOG = {
-  title: '熙然博客',
+  title: '熙然',
   author: '熙然',
   email: '970852638@qq.com',
   link: 'https://blog.xixiranran.com',
   newsletter: 'Notionic Weekly',
-  description: '分享软件、科技、资源与生活',
+  description: '但行好事，莫问前程',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -17,21 +17,23 @@ const BLOG = {
   sortByDate: true,
   pagesShow: {
     newsletter: true,
-    notes: true,
-    projects: true,
-    contact: true,
+    notes: false,
+    projects: false,
+    contact: false,
     books: true,
-    friends: true
+    friends: true,
+    music: true,
+    record: true,
   },
   showWeChatPay: true,
   previewImagesEnabled: true,
-  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: 'https://www.xixiranran.com',
+    twitter: '',
     github: 'https://github.com/xixiranran',
-    telegram: 'https://www.xixiranran.com'
+    telegram: ''
   },
   seo: {
     keywords: ['熙然博客', 'xiranblog', '熙然', 'xiran', 'xixiranran', '博客', 'Blog'],
@@ -42,9 +44,9 @@ const BLOG = {
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   notionDomain: 'izuolan.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
-  telegramChatId: '263895784', // The chat id of your Telegram bot
-  telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
-  telegramChannelName: 'zuolan_me', // The name of your Telegram channel
+  telegramChatId: '', // The chat id of your Telegram bot
+  telegramChannelUrl: '', // The link of your Telegram channel
+  telegramChannelName: '', // The name of your Telegram channel
   craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee, Umami and Cloudflare Insights, please fill with 'ga' or 'ackee' or 'umami' or 'cf', leave it empty to disable it.
@@ -67,8 +69,11 @@ const BLOG = {
   },
   comment: {
     // support provider: utterances, supacomments
+    // provider: 'supacomments', // leave it empty if you don't need any comment plugin
     provider: '', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
+      // supabaseUrl: 'https://quxcrqxbqxiolseqelal.supabase.co', // The url of your Supabase instance
+      // supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF1eGNycXhicXhpb2xzZXFlbGFsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDg2Nzc0MjgsImV4cCI6MjAyNDI1MzQyOH0.oBp-krn-IacLsuO65XsL_9uGG_Z48z3n4X66KPie1yM' // The anonymous key of your Supabase instance
       supabaseUrl: '', // The url of your Supabase instance
       supabaseAnonKey: '' // The anonymous key of your Supabase instance
     },
