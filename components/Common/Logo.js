@@ -1,6 +1,6 @@
 import * as React from "react"
 const SvgComponent = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" width={133} height={133} {...props}>
     <g className="layer">
       <title>{"Layer 1"}</title>
       <g fill="#00F">
