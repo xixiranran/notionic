@@ -5,7 +5,7 @@ const BLOG = {
   link: 'https://blog.xixiranran.com',
   newsletter: 'Notionic Weekly',
   description: '分享软件、科技、资源与生活',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -29,10 +29,8 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    //twitter: 'https://twitter.com/izuolan',
     github: 'https://github.com/xixiranran',
     bilibili: 'https://space.bilibili.com/29720041'
-    //telegram: 'https://t.me/zuolan'
   },
   seo: {
     keywords: ['熙然博客', 'xiranblog', '熙然', 'xiran', 'xixiranran', '博客', 'Blog'],
