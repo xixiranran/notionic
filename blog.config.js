@@ -29,9 +29,8 @@ const BLOG = {
   ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
-    twitter: '',
-    github: 'https://github.com/xixiranran',
-    telegram: 'https://t.me/zuolan'
+    twitter: 'https://twitter.com/izuolan',
+    github: 'https://github.com/xixiranran'
   },
   seo: {
     keywords: ['熙然博客', 'xiranblog', '熙然', 'xiran', 'xixiranran', '博客', 'Blog'],
