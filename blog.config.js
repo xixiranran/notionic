@@ -30,7 +30,8 @@ const BLOG = {
   defaultCover: '/cover.jpg',
   socialLink: {
     twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/xixiranran'
+    github: 'https://github.com/xixiranran',
+    bilibili: ''
   },
   seo: {
     keywords: ['熙然博客', 'xiranblog', '熙然', 'xiran', 'xixiranran', '博客', 'Blog'],
