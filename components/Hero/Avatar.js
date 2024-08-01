@@ -9,7 +9,7 @@ const Avatar = (props) => (
     }}
     {...props}
   >
-    <image x='0' y='0' width='100%' height='100%' clip-path='url(#shape)' href='https://cdn.jsdelivr.net/gh/An-Jhon/image_bed/202403052029609.png' preserveAspectRatio='none'></image>
+    <image x='0' y='0' width='100%' height='100%' clip-path='url(#shape)' href='https://img.xixiranran.com/2024/xiran.webp' preserveAspectRatio='none'></image>
   {
     // 注释掉裁剪和动画效果
     // <clipPath id='shape'>
