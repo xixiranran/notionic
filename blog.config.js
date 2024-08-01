@@ -33,7 +33,7 @@ const BLOG = {
   socialLink: {
     twitter: '',
     github: 'https://github.com/xixiranran',
-    telegram: ''
+    telegram: 'https://www.xixiranran.com'
   },
   seo: {
     keywords: ['熙然博客', 'xiranblog', '熙然', 'xiran', 'xixiranran', '博客', 'Blog'],
