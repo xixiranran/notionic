@@ -3,7 +3,7 @@ const BLOG = {
   author: '熙然',
   email: '970852638@qq.com',
   link: 'https://blog.xixiranran.com',
-  newsletter: 'Notionic Weekly',
+  newsletter: '熙然',
   description: '但行好事，莫问前程',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
@@ -16,7 +16,7 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
-    newsletter: true,
+    newsletter: false,
     notes: false,
     projects: false,
     contact: false,
