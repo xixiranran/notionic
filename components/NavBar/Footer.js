@@ -69,7 +69,7 @@ const Footer = ({ fullWidth }) => {
     {
       id: 5,
       name: t.NAV.CONTACT,
-      to: '/contact',
+      to: 'http://wpa.qq.com/msgrd?v=3&uin=970852638&site=qq&menu=yes',
       icon: <MailIcon className='inline-block mb-1 h-5 w-5' />,
       show: BLOG.pagesShow.contact
     },
