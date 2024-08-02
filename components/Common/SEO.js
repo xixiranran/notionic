@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 const SEO = ({ meta }) => {
   const ogImage = `https://${BLOG.ogImageGenerateHost}/api/default?logo=${
     BLOG.link
-  }/favicon.png&siteName=${encodeURIComponent(
+  }/logo.svg&siteName=${encodeURIComponent(
     BLOG.title?.trim()
   )}&description=${encodeURIComponent(
     BLOG.description?.trim()
