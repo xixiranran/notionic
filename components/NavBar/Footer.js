@@ -55,7 +55,7 @@ const Footer = ({ fullWidth }) => {
     {
       id: 3,
       name: t.NAV.MUSIC,
-      to: '/music',
+      to: 'https://music.xixiranran.com',
       icon: <PlayIcon className='inline-block mb-1 h-5 w-5' />,
       show: BLOG.pagesShow.music
     },
