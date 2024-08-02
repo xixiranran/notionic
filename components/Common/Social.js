@@ -8,7 +8,7 @@ const Social = () => {
       <Link
         // href={`${BLOG.socialLink.telegram}`}
         passHref
-        href='/contact'
+        href='http://wpa.qq.com/msgrd?v=3&uin=970852638&site=qq&menu=yes'
         scroll={false}
         target='_blank'
         aria-label='Mail'
